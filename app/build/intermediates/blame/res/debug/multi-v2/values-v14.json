@@ -4,7 +4,7 @@
             "outputFile": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d95e38c53cfec052c04c6b98fb5aab0f/res/values-v14/values-v14.xml",
+                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15",
                         "startColumns": "4,4,4,4,4",

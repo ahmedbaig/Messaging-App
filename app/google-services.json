@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "182056414638",
+    "firebase_url": "https://messaging-app-4290b.firebaseio.com",
+    "project_id": "messaging-app-4290b",
+    "storage_bucket": "messaging-app-4290b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182056414638:android:0845c510e0f73b6e",
+        "android_client_info": {
+          "package_name": "com.myhexaville.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182056414638-uhdnq2hkctllj9s55cbqklip5u7h6rqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeJb70fx6EUVCxjqUvu7jqFUg0Y1PU2gc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

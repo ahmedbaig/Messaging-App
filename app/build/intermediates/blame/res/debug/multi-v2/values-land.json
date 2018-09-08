@@ -4,7 +4,7 @@
             "outputFile": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/d95e38c53cfec052c04c6b98fb5aab0f/res/values-land/values-land.xml",
+                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4e5845a71669b26917c4f68bdcfbe94e/res/values-land/values-land.xml",
+                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ae2c99fe687dcb184a9e3ec606966ce9/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

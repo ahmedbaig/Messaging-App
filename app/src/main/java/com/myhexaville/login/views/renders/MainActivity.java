@@ -2,6 +2,8 @@ package com.myhexaville.login.views.renders;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
+import android.content.Intent;
+import android.database.Cursor;
 import android.databinding.DataBindingUtil;
 import android.os.Build;
 import android.os.Bundle;
@@ -10,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.myhexaville.login.R;
+import com.myhexaville.login.controllers.VerificationController;
 import com.myhexaville.login.databinding.ActivityMainBinding;
 import com.myhexaville.login.views.renders.login.LoginFragment;
 import com.myhexaville.login.views.renders.login.SignUpFragment;
@@ -24,35 +27,49 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private ActivityMainBinding binding;
     private boolean isLogin = true;
+    VerificationController db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        db = new VerificationController(this);
+        Cursor res = db.getVerifiedUser();
+        if(res.getCount() == 1){
+            Bundle data = new Bundle();
+            while(res.moveToNext()){
+                data.putString("verificationCode", res.getString(0));
+            }
+            Intent fragmentView = new Intent(this, FragmentView.class);
+            //TODO: Get the document ID from firebase too and push to next intent.
+            fragmentView.putExtras(data);
+            startActivity(fragmentView);
+            this.finish();
+        }else{
 
-        LoginFragment topLoginFragment = new LoginFragment();
-        SignUpFragment topSignUpFragment = new SignUpFragment();
+            LoginFragment topLoginFragment = new LoginFragment();
+            SignUpFragment topSignUpFragment = new SignUpFragment();
 
-        getSupportFragmentManager().beginTransaction()
-                .replace(R.id.sign_up_fragment, topSignUpFragment)
-                .replace(R.id.login_fragment, topLoginFragment)
-                .commit();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.sign_up_fragment, topSignUpFragment)
+                    .replace(R.id.login_fragment, topLoginFragment)
+                    .commit();
 
-        binding.loginFragment.setRotation(-90);
+            binding.loginFragment.setRotation(-90);
 
-        binding.button.setOnSignUpListener(topSignUpFragment);
-        binding.button.setOnLoginListener(topLoginFragment);
+            binding.button.setOnSignUpListener(topSignUpFragment);
+            binding.button.setOnLoginListener(topLoginFragment);
 
-        binding.button.setOnButtonSwitched(isLogin -> {
-            binding.getRoot()
-                    .setBackgroundColor(ContextCompat.getColor(
-                            this,
-                            isLogin ? R.color.colorPrimary : R.color.secondPage));
-        });
+            binding.button.setOnButtonSwitched(isLogin -> {
+                binding.getRoot()
+                        .setBackgroundColor(ContextCompat.getColor(
+                                this,
+                                isLogin ? R.color.colorPrimary : R.color.secondPage));
+            });
 
-        binding.loginFragment.setVisibility(INVISIBLE);
+            binding.loginFragment.setVisibility(INVISIBLE);
 
-
+        }
     }
 
     @Override

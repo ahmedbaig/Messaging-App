@@ -37,6 +37,9 @@ public class FragmentView extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_view);
 
+        String code = getIntent().getExtras().getString("verificationCode");
+        Toast.makeText(getApplicationContext(), code, Toast.LENGTH_SHORT).show();
+
         mMainFrame = (FrameLayout) findViewById(R.id.main_frame);
         mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
 
