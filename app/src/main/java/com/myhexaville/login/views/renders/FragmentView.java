@@ -61,11 +61,11 @@ public class FragmentView extends AppCompatActivity {
                         setFragment(messageFragment);
                         return true;
                     case R.id.nav_notification:
-                        mMainNav.setItemBackgroundResource(R.color.color_alizarin);
+                        mMainNav.setItemBackgroundResource(R.color.colorPrimary);
                         setFragment(notificationFragment);
                         return true;
                     case R.id.nav_account:
-                        mMainNav.setItemBackgroundResource(R.color.colorPrimaryDark);
+                        mMainNav.setItemBackgroundResource(R.color.colorPrimary);
                         setFragment(accountFragment);
                         return true;
                     default:
