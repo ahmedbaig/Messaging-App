@@ -1,0 +1,4 @@
+#Sat Sep 08 15:11:11 PKT 2018
+base.0=/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

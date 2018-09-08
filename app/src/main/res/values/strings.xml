@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">or</string>
+
+    <string name="search_button">search button</string>
+    <string name="toolbar_back">back button</string>
+    <string name="toolbar_search_box">Search Number</string>
+    <string name="newnum_bar">Enter Number</string>
+    <string name="newmsg_bar">New Message</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_notification">Notification</string>
+    <string name="nav_account">Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="account_fragment">Hello account fragment</string>
+    <string name="notification_fragment">Hello notification fragment</string>
+    <string name="message_fragment">Hello message fragment</string>
+</resources>
