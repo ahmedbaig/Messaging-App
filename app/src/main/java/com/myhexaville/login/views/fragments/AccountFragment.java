@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import com.myhexaville.login.R;
 
 public class AccountFragment extends Fragment {
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -16,4 +18,5 @@ public class AccountFragment extends Fragment {
 
         return view;
     }
+
 }

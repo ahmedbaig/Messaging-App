@@ -1,6 +1,7 @@
 package com.myhexaville.login.views.renders;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,6 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.myhexaville.login.R;
+import com.myhexaville.login.controllers.VerificationController;
 import com.myhexaville.login.views.fragments.AccountFragment;
 import com.myhexaville.login.views.fragments.MessageFragment;
 import com.myhexaville.login.views.fragments.NotificationFragment;
@@ -32,6 +34,8 @@ public class FragmentView extends AppCompatActivity {
     private AccountFragment accountFragment;
 
 
+    VerificationController db;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +43,8 @@ public class FragmentView extends AppCompatActivity {
 
         String code = getIntent().getExtras().getString("verificationCode");
         Toast.makeText(getApplicationContext(), code, Toast.LENGTH_SHORT).show();
+
+        db = new VerificationController(getApplicationContext());
 
         mMainFrame = (FrameLayout) findViewById(R.id.main_frame);
         mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
@@ -118,6 +124,28 @@ public class FragmentView extends AppCompatActivity {
                 case R.id.floatingActionButton:
                     Intent newMessage = new Intent(getApplicationContext(), NewMessage.class);
                     startActivity(newMessage);
+
+                case R.id.logoutButton:
+                    Toast.makeText(getApplicationContext(), "in here", Toast.LENGTH_SHORT).show();
+                    //TODO:
+                    // Should delete the verification code from SQLite,
+                    Cursor res = db.getVerifiedUser();
+                    String verifiedCode = "";
+                    if(res.getCount() == 1){
+                        while(res.moveToNext()){
+                            verifiedCode = res.getString(0);
+                        }
+                        Integer rows = db.deleteVerifiedUser(verifiedCode);
+                        if(rows > 0){
+                            Toast.makeText(getApplicationContext(), "Session Deleted", Toast.LENGTH_SHORT).show();
+                            // clear conversations and
+                            // redirect to main_activity
+                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(intent);
+                            this.finish();
+                        }
+                    }
+                    break;
                 default:
                     break;
             }

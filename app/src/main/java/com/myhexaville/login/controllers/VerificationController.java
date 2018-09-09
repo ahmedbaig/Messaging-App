@@ -31,4 +31,9 @@ public class VerificationController extends DatabaseHelper {
         Cursor res = db.rawQuery("SELECT verifyCode FROM "+TABLE_NAME+" WHERE status=1", null);
         return res;
     }
+
+    public Integer deleteVerifiedUser(String code){
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.delete(TABLE_NAME, "verifyCode = ?", new String[]{code});
+    }
 }
