@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        binding = DataBindingUtil.setContentView(this, R.layout.splash_screen);
         db = new VerificationController(this);
         Cursor res = db.getVerifiedUser();
         if(res.getCount() == 1){
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
             this.finish();
         }else{
 
+            binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
             LoginFragment topLoginFragment = new LoginFragment();
             SignUpFragment topSignUpFragment = new SignUpFragment();
 

@@ -124,9 +124,8 @@ public class FragmentView extends AppCompatActivity {
                 case R.id.floatingActionButton:
                     Intent newMessage = new Intent(getApplicationContext(), NewMessage.class);
                     startActivity(newMessage);
-
+                    break;
                 case R.id.logoutButton:
-                    Toast.makeText(getApplicationContext(), "in here", Toast.LENGTH_SHORT).show();
                     //TODO:
                     // Should delete the verification code from SQLite,
                     Cursor res = db.getVerifiedUser();
