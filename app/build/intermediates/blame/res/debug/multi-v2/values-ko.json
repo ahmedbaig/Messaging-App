@@ -4,6 +4,23 @@
             "outputFile": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
+                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/res/values-ko/values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,106,153,260",
+                        "endColumns": "50,46,106,71",
+                        "endOffsets": "101,148,255,327"
+                    },
+                    "to": {
+                        "startLines": "39,40,41,42",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4361,4412,4459,4566",
+                        "endColumns": "50,46,106,71",
+                        "endOffsets": "4407,4454,4561,4633"
+                    }
+                },
+                {
                     "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/602d14cc3e7e745578a54420ab0c8835/res/values-ko/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",

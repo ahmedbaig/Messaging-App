@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.databinding:adapters:1.3.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/26b5185274d4223d975a7b3b153986f7/AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.databinding:library:1.3.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/6dee116800c187359b98181eecfb2ce4/AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.support:design:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ae2c99fe687dcb184a9e3ec606966ce9/AndroidManifest.xml:17:1-22:12
@@ -28,6 +28,7 @@ MERGED from [com.android.support:support-v4:27.0.2] /home/ahmedbaig/.gradle/cach
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/65ab739d8afe16f3b3ed0b1ffcc2743b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5add5838213b345ae17374dd1a5bfeab/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/6a5e4856b646fc9e8adaa116da9ef1d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:support-fragment:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/36ff7ca4fef07acb29a157a65a6c08e1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3ca60cb6e858160fad98700959082a3a/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/55a6ff14549d08135ff4dcea76ef3241/AndroidManifest.xml:17:1-22:12
@@ -38,25 +39,39 @@ MERGED from [com.android.support:support-media-compat:27.0.2] /home/ahmedbaig/.g
 MERGED from [com.android.support:support-compat:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/1a4bfa5dc7398539d2c2f4ef4224eaca/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/0a8ddd61bf096a24bac0389c64e793bd/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/3b131e94da2ee23c5814fb72c7091535/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-32:12
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:1-33:12
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/256828e02de057ee49b2b8efb4dd89b8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/256828e02de057ee49b2b8efb4dd89b8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4ed685f5d74ca68c11cee184ad1c730a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4ed685f5d74ca68c11cee184ad1c730a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/6d31836438c7433c6bffbeeffb14b149/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/6d31836438c7433c6bffbeeffb14b149/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/fe7fe79083afc53d9d4819ff9e26350f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/fe7fe79083afc53d9d4819ff9e26350f/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/adea3803487c8edfbbbf92b527d4b598/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/adea3803487c8edfbbbf92b527d4b598/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:6:5-28:19
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/1ab64ac332665d478a72b894e594dfeb/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/1ab64ac332665d478a72b894e594dfeb/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/256828e02de057ee49b2b8efb4dd89b8/AndroidManifest.xml:26:5-32:19
@@ -85,60 +100,62 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ahmedba
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/ef4eeead655011de41e1e70ca717c19f/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5add5838213b345ae17374dd1a5bfeab/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5add5838213b345ae17374dd1a5bfeab/AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:45:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/3b131e94da2ee23c5814fb72c7091535/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/3b131e94da2ee23c5814fb72c7091535/AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:10:9-40
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.myhexaville.login.views.renders.MainActivity
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:11:9-21:20
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:12:9-22:20
 	android:screenOrientation
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:14:13-49
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:15:13-49
 	android:label
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:13:13-45
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:14:13-45
 	android:theme
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:15:13-56
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:16:13-56
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:12:13-55
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:13:13-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:20:27-74
 activity#com.myhexaville.login.views.renders.NewMessage
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:22:9-71
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:23:9-71
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:22:19-59
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:23:19-59
 activity#com.myhexaville.login.views.renders.Message
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:23:9-25:80
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:24:9-26:80
 	android:windowSoftInputMode
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:25:13-68
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:26:13-68
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:24:13-50
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:25:13-50
 activity#com.myhexaville.login.views.renders.FragmentView
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:26:9-64
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:27:9-64
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:26:19-61
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:27:19-61
 uses-permission#android.permission.CALL_PHONE
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:29:5-85
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:30:5-85
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:29:22-66
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:30:22-66
 uses-permission#android.permission.SEND_SMS
-ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:30:5-66
+ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:31:5-66
 	android:name
-		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:30:22-64
+		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml:31:22-64
 uses-sdk
 INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
@@ -191,6 +208,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ahmed
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/5add5838213b345ae17374dd1a5bfeab/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:cardview-v7:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/6a5e4856b646fc9e8adaa116da9ef1d6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/6a5e4856b646fc9e8adaa116da9ef1d6/AndroidManifest.xml:20:5-44
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:19:5-43
 MERGED from [com.android.support:support-fragment:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/36ff7ca4fef07acb29a157a65a6c08e1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/36ff7ca4fef07acb29a157a65a6c08e1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.0.2] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/3ca60cb6e858160fad98700959082a3a/AndroidManifest.xml:20:5-44
@@ -221,18 +240,6 @@ INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/A
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
 		ADDED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/256828e02de057ee49b2b8efb4dd89b8/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4ed685f5d74ca68c11cee184ad1c730a/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4ed685f5d74ca68c11cee184ad1c730a/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/6d31836438c7433c6bffbeeffb14b149/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/6d31836438c7433c6bffbeeffb14b149/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/fe7fe79083afc53d9d4819ff9e26350f/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/fe7fe79083afc53d9d4819ff9e26350f/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/adea3803487c8edfbbbf92b527d4b598/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/adea3803487c8edfbbbf92b527d4b598/AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/256828e02de057ee49b2b8efb4dd89b8/AndroidManifest.xml:22:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/256828e02de057ee49b2b8efb4dd89b8/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/4ed685f5d74ca68c11cee184ad1c730a/AndroidManifest.xml:24:5-79
@@ -407,3 +414,57 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/ahmedbai
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/ef4eeead655011de41e1e70ca717c19f/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/ef4eeead655011de41e1e70ca717c19f/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.CAMERA
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:21:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/AndroidManifest.xml:47:13-74

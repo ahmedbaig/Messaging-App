@@ -55,6 +55,23 @@
                     }
                 },
                 {
+                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/res/values-ar/values-ar.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,117,167,300",
+                        "endColumns": "61,49,132,109",
+                        "endOffsets": "112,162,295,405"
+                    },
+                    "to": {
+                        "startLines": "39,40,41,42",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4604,4666,4716,4849",
+                        "endColumns": "61,49,132,109",
+                        "endOffsets": "4661,4711,4844,4954"
+                    }
+                },
+                {
                     "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/602d14cc3e7e745578a54420ab0c8835/res/values-ar/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",

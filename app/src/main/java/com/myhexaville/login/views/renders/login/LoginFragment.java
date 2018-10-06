@@ -54,43 +54,57 @@ public class LoginFragment extends Fragment implements OnLoginListener{
 //        Toast.makeText(getContext(), "Login", Toast.LENGTH_SHORT).show();
         if(!phone.getText().toString().isEmpty() && !verification.getText().toString().isEmpty()){
             try{
-                Query query = databaseUser.orderByChild("phone").equalTo(phone.getText().toString());
+                Query query = databaseUser.orderByChild("phone");
                 query.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        for (DataSnapshot userSnapshot : dataSnapshot.getChildren()) {
-                            User user = userSnapshot.getValue(User.class);
-                            if (user.getPass().equals(verification.getText().toString())) {
-                                if(db.insertVerificationCode(user.getId())){
-                                    Toast.makeText(getContext(), "Session Saved", Toast.LENGTH_SHORT).show();
+                        if (true) {
+                            for (DataSnapshot userSnapshot : dataSnapshot.getChildren()) {
+                                if(userSnapshot.exists()){
+                                    User user = userSnapshot.getValue(User.class);
+                                    if (user.getPass().equals(verification.getText().toString()) && user.getPhone().equals(phone.getText().toString())) {
+                                        if(db.insertVerificationCode(user.getId())){
+                                            Toast.makeText(getContext(), "Session Saved", Toast.LENGTH_SHORT).show();
+                                        }else{
+                                            Toast.makeText(getContext(), "Database failure", Toast.LENGTH_SHORT).show();
+                                        }
+                                        userid = user.getId();
+                                        Bundle data = new Bundle();
+                                        data.putString("verificationCode", userid);
+                                        progressDialog.dismiss();
+                                        Intent fragmentView = new Intent(getContext(), FragmentView.class);
+                                        fragmentView.putExtras(data);
+                                        startActivity(fragmentView);
+                                        getActivity().finish();
+                                    }else{
+                                        progressDialog.dismiss();
+                                        Toast.makeText(getContext(), "Invalid Username or Password", Toast.LENGTH_SHORT).show();
+                                    }
                                 }else{
-                                    Toast.makeText(getContext(), "Database failure", Toast.LENGTH_SHORT).show();
+                                    progressDialog.dismiss();
+                                    Toast.makeText(getContext(), "Network connection not found", Toast.LENGTH_SHORT).show();
                                 }
-                                userid = user.getId();
-                                Bundle data = new Bundle();
-                                data.putString("verificationCode", userid);
-                                progressDialog.dismiss();
-                                Intent fragmentView = new Intent(getContext(), FragmentView.class);
-                                fragmentView.putExtras(data);
-                                startActivity(fragmentView);
-                                getActivity().finish();
-                            }else{
-                                progressDialog.dismiss();
-                                Toast.makeText(getContext(), "Invalid Username or Password", Toast.LENGTH_SHORT).show();
                             }
+                        } else {
+                            progressDialog.dismiss();
+                            Toast.makeText(getContext(), "Network connection not found", Toast.LENGTH_SHORT).show();
                         }
+
                     }
 
                     @Override
                     public void onCancelled(DatabaseError error) {
                         // Failed to read value
+                        progressDialog.dismiss();
                         Toast.makeText(getContext(), "Network connection not found", Toast.LENGTH_SHORT).show();
                     }
                 });
             }catch(Exception e){
+                progressDialog.dismiss();
                 Toast.makeText(getContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         }else{
+            progressDialog.dismiss();
             Toast.makeText(getContext(), "Please fill fields", Toast.LENGTH_SHORT).show();
         }
 

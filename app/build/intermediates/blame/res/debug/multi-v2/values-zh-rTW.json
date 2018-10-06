@@ -70,6 +70,23 @@
                         "endColumns": "100",
                         "endOffsets": "4215"
                     }
+                },
+                {
+                    "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/zxing-android-embedded-3.2.0.aar/dca15fef293595188242e917be55d228/res/values-zh-rTW/values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,104,151,244",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "99,146,239,309"
+                    },
+                    "to": {
+                        "startLines": "39,40,41,42",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "4220,4269,4316,4409",
+                        "endColumns": "48,46,92,69",
+                        "endOffsets": "4264,4311,4404,4474"
+                    }
                 }
             ]
         }

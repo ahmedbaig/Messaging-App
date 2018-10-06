@@ -20,6 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.myhexaville.login.R;
+import com.myhexaville.login.controllers.ContactsController;
 import com.myhexaville.login.controllers.VerificationController;
 import com.myhexaville.login.views.fragments.AccountFragment;
 import com.myhexaville.login.views.fragments.MessageFragment;
@@ -35,6 +36,7 @@ public class FragmentView extends AppCompatActivity {
 
 
     VerificationController db;
+    ContactsController cd;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -42,9 +44,9 @@ public class FragmentView extends AppCompatActivity {
         setContentView(R.layout.fragment_view);
 
         String code = getIntent().getExtras().getString("verificationCode");
-        Toast.makeText(getApplicationContext(), code, Toast.LENGTH_SHORT).show();
 
         db = new VerificationController(getApplicationContext());
+        cd = new ContactsController(getApplicationContext());
 
         mMainFrame = (FrameLayout) findViewById(R.id.main_frame);
         mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
@@ -135,6 +137,7 @@ public class FragmentView extends AppCompatActivity {
                             verifiedCode = res.getString(0);
                         }
                         Integer rows = db.deleteVerifiedUser(verifiedCode);
+                        cd.deleteContacts();
                         if(rows > 0){
                             Toast.makeText(getApplicationContext(), "Session Deleted", Toast.LENGTH_SHORT).show();
                             // clear conversations and

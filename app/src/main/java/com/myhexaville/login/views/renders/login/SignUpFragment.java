@@ -46,7 +46,7 @@ public class SignUpFragment extends Fragment implements OnSignUpListener{
 //        Toast.makeText(getContext(), "Sign up", Toast.LENGTH_SHORT).show();
 //        Intent register = new Intent(this, Register.class);
 //        startActivity(register);
-        if(!phone.toString().isEmpty() && !pass.toString().isEmpty() && !passCon.toString().isEmpty()){
+        if(!phone.getText().toString().isEmpty() && !pass.getText().toString().isEmpty() && !passCon.getText().toString().isEmpty()){
             if(pass.getText().toString().equals(passCon.getText().toString())){
                 String id = databaseUsers.push().getKey();
                 User user = new User(id, phone.getText().toString(), pass.getText().toString());
