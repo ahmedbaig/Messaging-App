@@ -41,7 +41,6 @@
                 ListItem listItem = listItems.get(position);
 
                 holder.heading.setText(listItem.getNum());
-                holder.message.setText(listItem.getMess());
             }
 
             @Override
@@ -52,14 +51,12 @@
             public class ViewHolder extends RecyclerView.ViewHolder{
 
                 TextView heading;
-                TextView message;
                 RelativeLayout parent;
 
                 public ViewHolder(View itemView){
                     super(itemView);
                     heading = itemView.findViewById(R.id.heading);
                     parent = itemView.findViewById(R.id.parent_layout);
-                    message = itemView.findViewById(R.id.message);
                 }
             }
         }

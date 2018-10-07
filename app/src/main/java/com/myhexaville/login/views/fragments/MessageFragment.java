@@ -50,13 +50,13 @@ public class MessageFragment extends Fragment {
 
 
         cd = new ContactsController(getContext());
-         res = cd.getContacts();
+        res = cd.getContacts();
         if(res.getCount() > 0){
 
             while(res.moveToNext()){
                 ListItem listItem = new ListItem(
                         res.getString(0),
-                        "Lorem Ipsum"
+                        ""
                 );
                 listItems.add(listItem);
             }
@@ -86,7 +86,22 @@ public class MessageFragment extends Fragment {
                         Contacts contacts = contactSnapshot.getValue(Contacts.class);
                         cd.insertContact(contacts.getId(), contacts.getNumber());
                     }
+                    cd = new ContactsController(getContext());
+                    res = cd.getContacts();
+                    if(res.getCount() > 0){
 
+                        while(res.moveToNext()){
+                            ListItem listItem = new ListItem(
+                                    res.getString(0),
+                                    ""
+                            );
+                            listItems.add(listItem);
+                        }
+
+                        adapter = new RecyclerViewAdapter(listItems, getContext());
+
+                        recyclerView.setAdapter(adapter);
+                    }
                 }
 
                 @Override

@@ -65,17 +65,18 @@ public class LoginFragment extends Fragment implements OnLoginListener{
                                     if (user.getPass().equals(verification.getText().toString()) && user.getPhone().equals(phone.getText().toString())) {
                                         if(db.insertVerificationCode(user.getId())){
                                             Toast.makeText(getContext(), "Session Saved", Toast.LENGTH_SHORT).show();
+                                            userid = user.getId();
+                                            Bundle data = new Bundle();
+                                            data.putString("verificationCode", userid);
+                                            progressDialog.dismiss();
+                                            Intent fragmentView = new Intent(getContext(), FragmentView.class);
+                                            fragmentView.putExtras(data);
+                                            startActivity(fragmentView);
+                                            getActivity().finish();
+                                            break;
                                         }else{
                                             Toast.makeText(getContext(), "Database failure", Toast.LENGTH_SHORT).show();
                                         }
-                                        userid = user.getId();
-                                        Bundle data = new Bundle();
-                                        data.putString("verificationCode", userid);
-                                        progressDialog.dismiss();
-                                        Intent fragmentView = new Intent(getContext(), FragmentView.class);
-                                        fragmentView.putExtras(data);
-                                        startActivity(fragmentView);
-                                        getActivity().finish();
                                     }else{
                                         progressDialog.dismiss();
                                         Toast.makeText(getContext(), "Invalid Username or Password", Toast.LENGTH_SHORT).show();

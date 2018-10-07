@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.myhexaville.login.R;
 import com.myhexaville.login.controllers.ContactsController;
+import com.myhexaville.login.controllers.NotificationController;
 import com.myhexaville.login.controllers.VerificationController;
 import com.myhexaville.login.views.fragments.AccountFragment;
 import com.myhexaville.login.views.fragments.MessageFragment;
@@ -37,6 +38,7 @@ public class FragmentView extends AppCompatActivity {
 
     VerificationController db;
     ContactsController cd;
+    NotificationController nd;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,6 +49,7 @@ public class FragmentView extends AppCompatActivity {
 
         db = new VerificationController(getApplicationContext());
         cd = new ContactsController(getApplicationContext());
+        nd = new NotificationController(getApplicationContext());
 
         mMainFrame = (FrameLayout) findViewById(R.id.main_frame);
         mMainNav = (BottomNavigationView) findViewById(R.id.main_nav);
@@ -95,7 +98,10 @@ public class FragmentView extends AppCompatActivity {
     }
 
     public void onButtonClick(View v){
-        try{
+
+        db = new VerificationController(getApplicationContext());
+        cd = new ContactsController(getApplicationContext());
+        nd = new NotificationController(getApplicationContext());
             Toolbar mainbar = findViewById(R.id.mainbar);
             Toolbar toolbar = findViewById(R.id.toolbar);
             TextView t = (TextView) findViewById(R.id.textView);
@@ -138,6 +144,7 @@ public class FragmentView extends AppCompatActivity {
                         }
                         Integer rows = db.deleteVerifiedUser(verifiedCode);
                         cd.deleteContacts();
+                        nd.deleteNotifications();
                         if(rows > 0){
                             Toast.makeText(getApplicationContext(), "Session Deleted", Toast.LENGTH_SHORT).show();
                             // clear conversations and
@@ -151,8 +158,5 @@ public class FragmentView extends AppCompatActivity {
                 default:
                     break;
             }
-        }catch(Exception e){
-            Toast.makeText(this,e.getMessage(), Toast.LENGTH_SHORT).show();
-        }
     }
 }

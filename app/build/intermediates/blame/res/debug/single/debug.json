@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_splash_icon_round.png.flat",
-        "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/mipmap-xhdpi/ic_splash_icon_round.png"
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_splash_icon_round.png.flat",
+        "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/mipmap-xhdpi/ic_splash_icon_round.png"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -28,12 +28,12 @@
         "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/layout/fragment_message.xml"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
-        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat",
+        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable_ic_call_black_30dp.xml.flat",
@@ -80,12 +80,12 @@
         "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
-        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -100,12 +100,12 @@
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/1a4bfa5dc7398539d2c2f4ef4224eaca/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat",
@@ -192,16 +192,16 @@
         "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/layout/layout_listitem.xml"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_splash_icon_round.png.flat",
-        "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/mipmap-hdpi/ic_splash_icon_round.png"
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_splash_icon_round.png.flat",
+        "source": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/src/main/res/mipmap-hdpi/ic_splash_icon_round.png"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -256,12 +256,12 @@
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
-        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable/tooltip_frame_dark.xml"
-    },
-    {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
         "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
+        "source": "/home/ahmedbaig/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/4495adc690e024c0cd0e6c8e0323f4dd/res/drawable/tooltip_frame_dark.xml"
     },
     {
         "merged": "/home/ahmedbaig/Desktop/Android-Login-Screen-master/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
