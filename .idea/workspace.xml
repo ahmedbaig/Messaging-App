@@ -18,8 +18,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdd70228-eee3-46d1-9e59-b069d4ab32b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/controllers/NotificationController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/models/Notifications.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
@@ -27,123 +25,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/dataBinding/debug/android/databinding/layouts/DataBindingInfo.java" afterPath="$PROJECT_DIR$/app/build/generated/source/dataBinding/debug/android/databinding/layouts/DataBindingInfo.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/compat/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/constraint/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreui/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/coreutils/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/fragment/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/mediacompat/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/transition/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/transition/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v4/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v4/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/android/databinding/library/baseAdapters/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/android/databinding/library/baseAdapters/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/base/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/myhexaville/login/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/myhexaville/login/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/compat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreui/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/coreutils/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/fragment/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/transition/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v4/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/android/databinding/library/baseAdapters/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/android/databinding/library/baseAdapters/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/android/gms/base/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/google/firebase/firebase_common/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/databinding/ActivityMainBinding.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/databinding/ActivityMainBinding.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/models/DatabaseHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/models/DatabaseHelper.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/fragments/MessageFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/fragments/MessageFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/fragments/NotificationFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/fragments/NotificationFragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter$ViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/notifications/NotificationItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/notifications/NotificationItem.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter$NotificationViewHolder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/FragmentView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/FragmentView$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/FragmentView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/FragmentView.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/Message$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/Message$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/Message.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/Message.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/NewMessage$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/NewMessage$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/NewMessage.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/NewMessage.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/login/LoginFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/login/LoginFragment$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/login/LoginFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/login/LoginFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/login/SignUpFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/myhexaville/login/views/renders/login/SignUpFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/ME2JNy+QQAYKsTF4M_hTGdxbMDo=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/ME2JNy+QQAYKsTF4M_hTGdxbMDo=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_layout_listitem.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_layout_listitem.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_layout_notificationitem.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_layout_notificationitem.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_new_message.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_new_message.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/compat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/compat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/constraint/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/coreui/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/coreui/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/coreutils/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/coreutils/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/design/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/fragment/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/fragment/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/graphics/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/graphics/drawable/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/graphics/drawable/animated/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/graphics/drawable/animated/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/mediacompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/mediacompat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/transition/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/transition/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/v4/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/v4/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/v7/appcompat/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/android/support/v7/recyclerview/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/android/databinding/library/baseAdapters/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/android/databinding/library/baseAdapters/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/google/android/gms/base/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/google/android/gms/base/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/google/firebase/firebase_common/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/google/firebase/firebase_common/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/R$id.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/databinding/ActivityMainBinding.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/databinding/ActivityMainBinding.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/models/DatabaseHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/models/DatabaseHelper.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/fragments/MessageFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/fragments/MessageFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/fragments/NotificationFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/fragments/NotificationFragment.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter$ViewHolder.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/notifications/NotificationItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/notifications/NotificationItem.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter$NotificationViewHolder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/FragmentView$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/FragmentView$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/FragmentView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/FragmentView.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/Message$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/Message$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/Message.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/Message.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/NewMessage$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/NewMessage$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/NewMessage.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/NewMessage.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/login/LoginFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/login/LoginFragment$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/login/LoginFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/login/LoginFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/login/SignUpFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/desugar/debug/0/com/myhexaville/login/views/renders/login/SignUpFragment.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/models/DatabaseHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/models/DatabaseHelper.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/fragments/MessageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/fragments/MessageFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/fragments/NotificationFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/fragments/NotificationFragment.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/notifications/NotificationItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/notifications/NotificationItem.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/notifications/NotificationRecyclerViewAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/FragmentView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/FragmentView.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/NewMessage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/NewMessage.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/login/LoginFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/login/LoginFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_notificationitem.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_notificationitem.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/new_message.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/new_message.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,11 +62,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewMessage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/NewMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2754">
-              <caret line="112" column="58" lean-forward="false" selection-start-line="112" selection-start-column="58" selection-end-line="112" selection-end-column="58" />
+            <state relative-caret-position="187">
+              <caret line="288" column="22" lean-forward="false" selection-start-line="288" selection-start-column="22" selection-end-line="291" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecyclerViewAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2161,7 +2057,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/ListItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/models/Contacts.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/controllers/ContactsController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_notificationitem.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/login/LoginFragment.java" />
@@ -2175,6 +2070,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/fragments/NotificationFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/new_message.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/NewMessage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java" />
       </list>
     </option>
   </component>
@@ -2640,7 +2536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538858516709</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add friends with QRCode fixed and new notification feature enabled">
+      <created>1538909678244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538909678244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2694,7 +2597,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add friends with QRCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add friends with QRCode" />
+    <MESSAGE value="Add friends with QRCode fixed and new notification feature enabled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add friends with QRCode fixed and new notification feature enabled" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3017,14 +2921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_notificationitem.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -3098,9 +2994,9 @@
         <state relative-caret-position="102">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3118,8 +3014,8 @@
         <state relative-caret-position="102">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="false" />
+            <element signature="e#390#391#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3129,10 +3025,10 @@
         <state relative-caret-position="85">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding>
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3147,8 +3043,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/renders/NewMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2754">
-          <caret line="112" column="58" lean-forward="false" selection-start-line="112" selection-start-column="58" selection-end-line="112" selection-end-column="58" />
+        <state relative-caret-position="187">
+          <caret line="288" column="22" lean-forward="false" selection-start-line="288" selection-start-column="22" selection-end-line="291" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/myhexaville/login/views/lists/conversations/RecyclerViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>

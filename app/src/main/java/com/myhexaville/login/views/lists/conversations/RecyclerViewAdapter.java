@@ -2,6 +2,7 @@
         package com.myhexaville.login.views.lists.conversations;
 
         import android.content.Context;
+        import android.content.Intent;
         import android.support.annotation.NonNull;
         import android.support.v7.widget.RecyclerView;
         import android.util.Log;
@@ -10,8 +11,10 @@
         import android.view.ViewGroup;
         import android.widget.RelativeLayout;
         import android.widget.TextView;
+        import android.widget.Toast;
 
         import com.myhexaville.login.R;
+        import com.myhexaville.login.views.renders.Message;
 
         import java.util.List;
 
@@ -41,6 +44,15 @@
                 ListItem listItem = listItems.get(position);
 
                 holder.heading.setText(listItem.getNum());
+                holder.parent.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        Intent messageWindow = new Intent(mContext, Message.class);
+                        messageWindow.putExtra("number", listItem.getNum().toString());
+                        mContext.startActivity(messageWindow);
+                    }
+                });
             }
 
             @Override
